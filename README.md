@@ -13,6 +13,7 @@
 - 行銷策略分級: 根據預測結果，將用戶分類為Hot、Warm、Cold及Non-Target四個等級。
 
 # 專案結構
+```
 likelihood-to-buy-prediction/
 ├── Likelihood_To_Buy_Prediction.ipynb  # 主程式
 ├── database/
@@ -21,6 +22,7 @@ likelihood-to-buy-prediction/
 │   └── leads_transactions.db           # SQLite資料庫
 └── model/
     └── best_model_h2o                  # 最佳H2O AutoML模型檔案
+```
 
 # 最佳模型
 model_id|auc|logloss|aucpr|mean_per_class_error|rmse|mse
